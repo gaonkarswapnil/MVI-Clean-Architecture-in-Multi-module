@@ -37,8 +37,8 @@ android {
 
 dependencies {
 
-    implementation(project(":domain"))
-    implementation(project(":data"))
+//    implementation(project(":domain"))
+    api(project(":data"))
 
     implementation(libs.androidx.navigation.compose)
     implementation(libs.dagger.hilt.android)

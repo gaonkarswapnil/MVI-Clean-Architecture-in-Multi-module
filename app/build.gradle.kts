@@ -43,7 +43,7 @@ android {
 
 dependencies {
 
-    implementation(project(":presentation"))
+    api(project(":presentation"))
 
     implementation(libs.androidx.navigation.compose)
     implementation(libs.dagger.hilt.android)
